@@ -1,0 +1,47 @@
+# Arquivos de Log e Temporários
+*.log
+*~
+.DS_Store
+
+# Arquivos Compilados Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Diretórios de Build (Maven/Gradle)
+target/
+build/
+.gradle/
+
+# Arquivos Gerados pelo Projeto (Ex: Saída do Buscador de CEP)
+*.json
+
+### IntelliJ IDEA ###
+# Ignora todo o diretório .idea, que contém configurações locais do usuário
+.idea/
+# Ignora arquivos de módulo .iml
+*.iml
+# Diretório de saída de compilação padrão do IntelliJ
+out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+# Diretório de saída de compilação padrão do Eclipse
+bin/
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
